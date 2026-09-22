@@ -1,0 +1,30 @@
+export const POPULAR_CITIES = [
+  { id: 'bangkalan', name: 'Bangkalan', province: 'Jawa Timur', country: 'Indonesia', lat: -7.0455, lng: 112.7425 },
+  { id: 'jakarta', name: 'Jakarta Pusat', province: 'DKI Jakarta', country: 'Indonesia', lat: -6.2088, lng: 106.8456 },
+  { id: 'surabaya', name: 'Surabaya', province: 'Jawa Timur', country: 'Indonesia', lat: -7.2575, lng: 112.7521 },
+  { id: 'bandung', name: 'Bandung', province: 'Jawa Barat', country: 'Indonesia', lat: -6.9175, lng: 107.6191 },
+  { id: 'medan', name: 'Medan', province: 'Sumatera Utara', country: 'Indonesia', lat: 3.5952, lng: 98.6722 },
+  { id: 'semarang', name: 'Semarang', province: 'Jawa Tengah', country: 'Indonesia', lat: -6.9667, lng: 110.4167 },
+  { id: 'makassar', name: 'Makassar', province: 'Sulawesi Selatan', country: 'Indonesia', lat: -5.1477, lng: 119.4327 },
+  { id: 'palembang', name: 'Palembang', province: 'Sumatera Selatan', country: 'Indonesia', lat: -2.9761, lng: 104.7754 },
+  { id: 'yogyakarta', name: 'Yogyakarta', province: 'DI Yogyakarta', country: 'Indonesia', lat: -7.7956, lng: 110.3695 },
+  { id: 'denpasar', name: 'Denpasar', province: 'Bali', country: 'Indonesia', lat: -8.6705, lng: 115.2126 },
+  { id: 'banda-aceh', name: 'Banda Aceh', province: 'Aceh', country: 'Indonesia', lat: 5.5483, lng: 95.3238 },
+  { id: 'padang', name: 'Padang', province: 'Sumatera Barat', country: 'Indonesia', lat: -0.9471, lng: 100.4172 },
+  { id: 'pekanbaru', name: 'Pekanbaru', province: 'Riau', country: 'Indonesia', lat: 0.5071, lng: 101.4478 },
+  { id: 'banjarmasin', name: 'Banjarmasin', province: 'Kalimantan Selatan', country: 'Indonesia', lat: -3.3194, lng: 114.5908 },
+  { id: 'samarinda', name: 'Samarinda', province: 'Kalimantan Timur', country: 'Indonesia', lat: -0.5022, lng: 117.1536 },
+  { id: 'pontianak', name: 'Pontianak', province: 'Kalimantan Barat', country: 'Indonesia', lat: -0.0263, lng: 109.3425 },
+  { id: 'manado', name: 'Manado', province: 'Sulawesi Utara', country: 'Indonesia', lat: 1.4748, lng: 124.8421 },
+  { id: 'mataram', name: 'Mataram', province: 'Nusa Tenggara Barat', country: 'Indonesia', lat: -8.5833, lng: 116.1167 },
+  { id: 'kupang', name: 'Kupang', province: 'Nusa Tenggara Timur', country: 'Indonesia', lat: -10.1772, lng: 123.607 },
+  { id: 'ambon', name: 'Ambon', province: 'Maluku', country: 'Indonesia', lat: -3.6547, lng: 128.1906 },
+  { id: 'jayapura', name: 'Jayapura', province: 'Papua', country: 'Indonesia', lat: -2.5337, lng: 140.7181 },
+  { id: 'serang', name: 'Serang', province: 'Banten', country: 'Indonesia', lat: -6.1104, lng: 106.1634 },
+  { id: 'cirebon', name: 'Cirebon', province: 'Jawa Barat', country: 'Indonesia', lat: -6.732, lng: 108.5523 },
+  { id: 'malang', name: 'Malang', province: 'Jawa Timur', country: 'Indonesia', lat: -7.9666, lng: 112.6326 },
+  { id: 'makkah', name: 'Makkah', province: 'Makkah Region', country: 'Saudi Arabia', lat: 21.4225, lng: 39.8262 },
+  { id: 'madinah', name: 'Madinah', province: 'Al Madinah', country: 'Saudi Arabia', lat: 24.5247, lng: 39.5692 }
+];
+
+export const DEFAULT_CITY = POPULAR_CITIES[0]; // Bangkalan

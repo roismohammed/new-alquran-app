@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-arabic: 'Amiri', 'Scheherazade New', 'Lateef', serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    overflow-x: hidden;
+    background-color: #fcfbf8;
+    color: #1e293b;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  html.dark body {
+    background-color: #080c0b;
+    color: #f1f5f9;
+  }
+}
+
+/* Authentic Arabic Typography */
+.font-arabic {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  line-height: 2.2;
+  font-feature-settings: "cv01", "cv02", "liga", "clig";
+  text-rendering: optimizeLegibility;
+}
+
+.font-arabic-center {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: center;
+  line-height: 2.2;
+  font-feature-settings: "cv01", "cv02", "liga", "clig";
+  text-rendering: optimizeLegibility;
+}
+
+/* Subtle Geometric Star Motif for Premium Cards */
+.islamic-star-pattern {
+  background-image: radial-gradient(#065f46 0.8px, transparent 0.8px);
+  background-size: 20px 20px;
+  opacity: 0.12;
+}
+
+.dark .islamic-star-pattern {
+  background-image: radial-gradient(#34d399 0.8px, transparent 0.8px);
+  opacity: 0.14;
+}
+
+/* Islamic Subtle Background Grid */
+.islamic-pattern {
+  background-image: radial-gradient(rgba(6, 78, 59, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.dark .islamic-pattern {
+  background-image: radial-gradient(rgba(52, 211, 153, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(6, 78, 59, 0.18);
+  border-radius: 9999px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(52, 211, 153, 0.25);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(6, 78, 59, 0.35);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(52, 211, 153, 0.45);
+}
+
+/* Range input accent */
+input[type="range"] {
+  accent-color: #065f46;
+}
+
+.dark input[type="range"] {
+  accent-color: #34d399;
+}

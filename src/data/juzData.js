@@ -1,0 +1,43 @@
+export const JUZ_LIST = [
+  { juz: 1, name: 'Al-Fatihah - Al-Baqarah', startSurah: 1, startAyah: 1, endSurah: 2, endAyah: 141, startSurahName: 'Al-Fatihah', endSurahName: 'Al-Baqarah' },
+  { juz: 2, name: 'Sayaqūl', startSurah: 2, startAyah: 142, endSurah: 2, endAyah: 252, startSurahName: 'Al-Baqarah', endSurahName: 'Al-Baqarah' },
+  { juz: 3, name: 'Tilka ar-Rusul', startSurah: 2, startAyah: 253, endSurah: 3, endAyah: 92, startSurahName: 'Al-Baqarah', endSurahName: 'Ali \'Imran' },
+  { juz: 4, name: 'Lan Tanalu', startSurah: 3, startAyah: 93, endSurah: 4, endAyah: 23, startSurahName: 'Ali \'Imran', endSurahName: 'An-Nisa\'' },
+  { juz: 5, name: 'Wal-Muhsanat', startSurah: 4, startAyah: 24, endSurah: 4, endAyah: 147, startSurahName: 'An-Nisa\'', endSurahName: 'An-Nisa\'' },
+  { juz: 6, name: 'La Yuhibbullah', startSurah: 4, startAyah: 148, endSurah: 5, endAyah: 81, startSurahName: 'An-Nisa\'', endSurahName: 'Al-Ma\'idah' },
+  { juz: 7, name: 'Wa Iza Sami\'u', startSurah: 5, startAyah: 82, endSurah: 6, endAyah: 110, startSurahName: 'Al-Ma\'idah', endSurahName: 'Al-An\'am' },
+  { juz: 8, name: 'Wa Lau Annana', startSurah: 6, startAyah: 111, endSurah: 7, endAyah: 87, startSurahName: 'Al-An\'am', endSurahName: 'Al-A\'raf' },
+  { juz: 9, name: 'Qalal-Mala\'u', startSurah: 7, startAyah: 88, endSurah: 8, endAyah: 40, startSurahName: 'Al-A\'raf', endSurahName: 'Al-Anfal' },
+  { juz: 10, name: 'Wa\'lamu', startSurah: 8, startAyah: 41, endSurah: 9, endAyah: 92, startSurahName: 'Al-Anfal', endSurahName: 'At-Taubah' },
+  { juz: 11, name: 'Ya\'tazirun', startSurah: 9, startAyah: 93, endSurah: 11, endAyah: 5, startSurahName: 'At-Taubah', endSurahName: 'Hud' },
+  { juz: 12, name: 'Wa Ma Min Dabbah', startSurah: 11, startAyah: 6, endSurah: 12, endAyah: 52, startSurahName: 'Hud', endSurahName: 'Yusuf' },
+  { juz: 13, name: 'Wa Ma Ubarri\'u', startSurah: 12, startAyah: 53, endSurah: 14, endAyah: 52, startSurahName: 'Yusuf', endSurahName: 'Ibrahim' },
+  { juz: 14, name: 'Rubama', startSurah: 15, startAyah: 1, endSurah: 16, endAyah: 128, startSurahName: 'Al-Hijr', endSurahName: 'An-Nahl' },
+  { juz: 15, name: 'Subhanallazi', startSurah: 17, startAyah: 1, endSurah: 18, endAyah: 74, startSurahName: 'Al-Isra\'', endSurahName: 'Al-Kahf' },
+  { juz: 16, name: 'Qala Alam', startSurah: 18, startAyah: 75, endSurah: 20, endAyah: 135, startSurahName: 'Al-Kahf', endSurahName: 'Taha' },
+  { juz: 17, name: 'Iqtaraba', startSurah: 21, startAyah: 1, endSurah: 22, endAyah: 78, startSurahName: 'Al-Anbiya\'', endSurahName: 'Al-Hajj' },
+  { juz: 18, name: 'Qad Aflaha', startSurah: 23, startAyah: 1, endSurah: 25, endAyah: 20, startSurahName: 'Al-Mu\'minun', endSurahName: 'Al-Furqan' },
+  { juz: 19, name: 'Wa Qalallazina', startSurah: 25, startAyah: 21, endSurah: 27, endAyah: 55, startSurahName: 'Al-Furqan', endSurahName: 'An-Naml' },
+  { juz: 20, name: 'Amman Khalaq', startSurah: 27, startAyah: 56, endSurah: 29, endAyah: 45, startSurahName: 'An-Naml', endSurahName: 'Al-\'Ankabut' },
+  { juz: 21, name: 'Utlu Ma Uhiya', startSurah: 29, startAyah: 46, endSurah: 33, endAyah: 30, startSurahName: 'Al-\'Ankabut', endSurahName: 'Al-Ahzab' },
+  { juz: 22, name: 'Wa Man Yaqnut', startSurah: 33, startAyah: 31, endSurah: 36, endAyah: 27, startSurahName: 'Al-Ahzab', endSurahName: 'Yasin' },
+  { juz: 23, name: 'Wa Maliya', startSurah: 36, startAyah: 28, endSurah: 39, endAyah: 31, startSurahName: 'Yasin', endSurahName: 'Az-Zumar' },
+  { juz: 24, name: 'Fa Man Azlamu', startSurah: 39, startAyah: 32, endSurah: 41, endAyah: 46, startSurahName: 'Az-Zumar', endSurahName: 'Fussilat' },
+  { juz: 25, name: 'Ilaihi Yuraddu', startSurah: 41, startAyah: 47, endSurah: 45, endAyah: 37, startSurahName: 'Fussilat', endSurahName: 'Al-Jasiyah' },
+  { juz: 26, name: 'Ha Mim', startSurah: 46, startAyah: 1, endSurah: 51, endAyah: 30, startSurahName: 'Al-Ahqaf', endSurahName: 'Az-Zariyat' },
+  { juz: 27, name: 'Qala Fama Khatbukum', startSurah: 51, startAyah: 31, endSurah: 57, endAyah: 29, startSurahName: 'Az-Zariyat', endSurahName: 'Al-Hadid' },
+  { juz: 28, name: 'Qad Sami\'allahu', startSurah: 58, startAyah: 1, endSurah: 66, endAyah: 12, startSurahName: 'Al-Mujadilah', endSurahName: 'At-Tahrim' },
+  { juz: 29, name: 'Tabarakallazi', startSurah: 67, startAyah: 1, endSurah: 77, endAyah: 50, startSurahName: 'Al-Mulk', endSurahName: 'Al-Mursalat' },
+  { juz: 30, name: 'Juz \'Amma', startSurah: 78, startAyah: 1, endSurah: 114, endAyah: 6, startSurahName: 'An-Naba\'', endSurahName: 'An-Nas' }
+];
+
+export const POPULAR_SURAHS = [
+  { nomor: 18, namaLatin: 'Al-Kahf', nama: 'الكهف', arti: 'Gua', jumlahAyat: 110, reason: 'Disunnahkan dibaca di hari & malam Jumat' },
+  { nomor: 36, namaLatin: 'Yasin', nama: 'يس', arti: 'Yasin', jumlahAyat: 83, reason: 'Jantungnya Al-Qur\'an (Qalb al-Qur\'an)' },
+  { nomor: 67, namaLatin: 'Al-Mulk', nama: 'الملك', arti: 'Kerajaan', jumlahAyat: 30, reason: 'Pelindung dari siksa kubur (dibaca sebelum tidur)' },
+  { nomor: 56, namaLatin: 'Al-Waqi\'ah', nama: 'الواقعة', arti: 'Hari Kiamat', jumlahAyat: 96, reason: 'Pemberi ketenangan & keberkahan rezeki' },
+  { nomor: 55, namaLatin: 'Ar-Rahman', nama: 'الرحمن', arti: 'Yang Maha Pengasih', jumlahAyat: 78, reason: 'Pengingat nikmat-nikmat Allah' },
+  { nomor: 112, namaLatin: 'Al-Ikhlas', nama: 'الإخلاص', arti: 'Ikhlas', jumlahAyat: 4, reason: 'Setara sepertiga Al-Qur\'an' },
+  { nomor: 113, namaLatin: 'Al-Falaq', nama: 'الفلق', arti: 'Waktu Subuh', jumlahAyat: 5, reason: 'Doa perlindungan dari kejahatan' },
+  { nomor: 114, namaLatin: 'An-Nas', nama: 'الناس', arti: 'Manusia', jumlahAyat: 6, reason: 'Doa perlindungan dari bisikan setan' }
+];
